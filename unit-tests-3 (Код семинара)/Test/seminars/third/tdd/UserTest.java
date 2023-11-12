@@ -35,6 +35,10 @@ public class UserTest {
         assertFalse(user.checkPass("admi", "admin"));
     }
 
+    /** Task 1
+     * Напишите тесты, покрывающие на 100% метод evenOddNumber,
+     * который проверяет, является ли переданное число четным или нечетным.
+     */
     @Test
     void testEvenOddNumberTrue(){
         assertTrue(user.evenOddNumber(2));
@@ -44,6 +48,8 @@ public class UserTest {
         assertFalse(user.evenOddNumber(3));
     }
 
+    /**Разработайте и протестируйте метод numberInInterval, который проверяет,
+     * попадает ли переданное число в интервал (25;100).*/
     @Test
     void testNumberInIntervalTrue(){
 
