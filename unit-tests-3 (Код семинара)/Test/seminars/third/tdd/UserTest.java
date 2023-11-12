@@ -48,7 +48,8 @@ public class UserTest {
         assertFalse(user.evenOddNumber(3));
     }
 
-    /**Разработайте и протестируйте метод numberInInterval, который проверяет,
+    /**Task 2
+     * Разработайте и протестируйте метод numberInInterval, который проверяет,
      * попадает ли переданное число в интервал (25;100).*/
     @Test
     void testNumberInIntervalTrue(){
